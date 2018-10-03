@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+ int main () {
+ 	int nome, endereco, cidade, numeroc, idade;
+ 	
+ 	printf ("digite seu nome por favor\n");
+	 scanf("%d",& nome);
+	 system ("pause");
+	 printf("coloque seu endereco porfavor\n ");
+	 scanf ("%d", & endereco);
+	  system ("pause");
+	 printf("qual a sua cidade ??\n");
+	 scanf("%d", & cidade);
+	  system ("pause");
+	 printf ("informe o numero da sua casa\n");
+	 scanf ("%d",& numeroc);
+	  system ("pause");
+	 printf ("qual a sua idade ?\n");
+	 scanf ("%d",& idade);
+	  system ("pause");
+	 printf("voce é %d\n que reside no endereço %d\n na cidade %d\n na casa de numero %d\n e o senhor %d\n tem %d anos",nome,endereco,cidade,numeroc,nome,idade);
+	 system ("pause");
+	 return 0;
+	 
